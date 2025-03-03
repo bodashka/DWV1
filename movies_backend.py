@@ -4,9 +4,7 @@ import pymongo
 import os
 from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
-ATLAS_URI = os.getenv("ATLAS_URI")
+ATLAS_URI = "mongodb+srv://bodashkaxdgg:uL9f1Yj8frIY7zua@cluster0.idr3e.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # Initialize Flask app
 app = Flask(__name__)
